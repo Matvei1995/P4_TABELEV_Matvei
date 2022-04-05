@@ -6,7 +6,10 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.citation{
+    font-style: italic;
+    font-size: 16px;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -531,7 +534,8 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
