@@ -710,6 +710,11 @@ p {
     margin: auto auto auto auto;
 }
 
+span {
+    width: 48px;
+    height: 48px;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
